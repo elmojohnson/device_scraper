@@ -46,7 +46,7 @@ const EndpointItem = ({ title, url }) => {
                     variant="outline"
                     onClick={() => {
                       navigator.clipboard.writeText(
-                        process.env.NEXT_PUBLIC_BASE_URL + url
+                        window.location.href + url.replace("/", "")
                       );
                       toast({
                         title: "Copied to clipboard",
