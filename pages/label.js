@@ -26,7 +26,7 @@ const Label = () => {
         height: "230px",
         display: "flex",
         flexDirection: "column",
-        padding: "4px",
+        padding: "0px",
         justifyContent: "space-between",
         overflow: "hidden",
       }}
